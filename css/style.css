@@ -1,0 +1,171 @@
+html, body {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+<<<<<<< HEAD
+            overflow: auto;
+            background:url(images/bg.png) no-repeat center center fixed;
+            background-size:100% 100%;
+=======
+            overflow: hidden;
+>>>>>>> f061e2f81197422e27211a005300ac4f3720dd6e
+        }
+#contentWrapper{
+    margin: 0 auto;
+    position: relative;
+<<<<<<< HEAD
+    margin-top: 20px;
+=======
+>>>>>>> f061e2f81197422e27211a005300ac4f3720dd6e
+    width: 600px;
+    height: 900px;
+    background-color: #272822;
+}
+
+#playContainer{
+    width: 590px;
+    height: 155px;
+    margin: 5 5 5 5;
+    position: absolute;
+    top: 25;
+    overflow: auto;
+    background-color: #181915;
+}
+
+#listingContainer{
+    width: 590px;
+    height: 600px;
+    margin: 5 5 5 5;
+    position: absolute;
+    bottom: 0;
+    overflow: auto;
+    background: #181915;
+}
+
+#txtSearch{
+    background-color: #f3f3f3;  
+    border: 0;  
+    height: 18px;
+    width: 250px;
+    padding: 2px;
+    position: absolute;
+    top: 270;
+    left: 5;  
+}
+
+ #btnSearch{
+    position: absolute;
+    left: 260;
+    top: 266;
+    font-family: Arial;
+}
+
+ #btnClearTL{
+    position: absolute;
+    left: 320;
+    top: 266;
+    font-family: Arial;
+}
+
+#trackListing li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 5px;
+    color: #91aeb6;
+}
+
+#trackListing li:hover {
+    color: #fff;
+    background-color: #313540;
+}
+
+#playlist li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 5px;
+    color: #91aeb6;
+}
+
+#playlist li:hover {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 5px;
+    color: #fff;
+    background-color: #313540;
+}
+
+#playlist li.active {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 5px;
+    color: #fff;
+    background-color: #313540;
+}
+
+#txtNow{
+    color: #fff;
+    position: absolute;
+    max-height: 18px;
+    margin-left: 10px;
+    overflow: hidden;
+    top: 5;
+    right: 10;
+    z-index: 999;
+}
+
+progress {   
+    border: 0;  
+    height: 20px;
+    width: 590px;
+    position: absolute;
+    top: 5;
+    right: 5; 
+<<<<<<< HEAD
+    background-color: #929292;
+}
+progress::-webkit-progress-bar {  
+    background-color: #929292;  
+}  
+progress::-webkit-progress-value {  
+    background-color: #0164b7;
+} 
+progress::-moz-progress-bar {  
+      
+}
+#controlsContainer{
+    /*background-color: #000000;*/
+=======
+}  
+#controlsContainer{
+    background-color: #000000;
+>>>>>>> f061e2f81197422e27211a005300ac4f3720dd6e
+    position: absolute;
+    left: 5;
+    top: 185;
+}
+#controlsContainer input{
+    float: left;
+    margin: 0 auto;
+}
+#controlsContainer button{
+    float: left;
+    margin: 0 auto;
+}
+<<<<<<< HEAD
+#removeSelected{
+    position: absolute;
+    top: 185;
+    right: 5;
+}
+=======
+>>>>>>> f061e2f81197422e27211a005300ac4f3720dd6e
+#scImage{
+    position: absolute;
+    right: 5;
+    top: 230;
+    opacity: .2;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> f061e2f81197422e27211a005300ac4f3720dd6e
